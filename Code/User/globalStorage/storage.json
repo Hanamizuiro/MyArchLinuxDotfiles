@@ -1,0 +1,81 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "d0b02a1ac6e544c597f168576d19260a28000a37107a7d38ba7344d58abad53d",
+    "telemetry.devDeviceId": "821ee8ce-ee53-4015-be95-9abef156567e",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/blueflowers/.config"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1759647800911"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/blueflowers/.config": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/blueflowers/.config",
+            "backupPath": "/home/blueflowers/.config/Code/Backups/5aa1da11b283965fc5b1ae06535583cf",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1280,
+                "height": 1408
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "d64de6a48d26f30e5b029507c259f737": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}
