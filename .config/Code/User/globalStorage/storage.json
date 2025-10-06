@@ -6,19 +6,16 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/blueflowers/.config"
+                "folderUri": "file:///home/blueflowers/dotfiles"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1759647800911"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/blueflowers/.config": "__default__profile__"
+            "file:///home/blueflowers/.config": "__default__profile__",
+            "file:///home/blueflowers/dotfiles": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -47,21 +44,21 @@
             "titleBarHeight": 35,
             "activityBarWidth": 48,
             "sideBarWidth": 300,
-            "auxiliaryBarWidth": 0,
+            "auxiliaryBarWidth": 300,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/blueflowers/.config",
-            "backupPath": "/home/blueflowers/.config/Code/Backups/5aa1da11b283965fc5b1ae06535583cf",
+            "folder": "file:///home/blueflowers/dotfiles",
+            "backupPath": "/home/blueflowers/.config/Code/Backups/a184c0ce5c2f696ebbcb9f3770513fc4",
             "uiState": {
-                "mode": 0,
-                "x": 0,
-                "y": 0,
-                "width": 1280,
-                "height": 1408
+                "mode": 1,
+                "x": 4,
+                "y": 36,
+                "width": 1274,
+                "height": 1400
             }
         },
         "openedWindows": []
@@ -74,6 +71,10 @@
                 "d64de6a48d26f30e5b029507c259f737": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
+                },
+                "3209eb595097d4ab7bf390136c8c0d52": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
                 }
             }
         }
