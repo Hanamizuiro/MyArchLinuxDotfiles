@@ -10,3 +10,5 @@
 2025-10-08 19:22:50.713 [error] [storage state.vscdb] open(): Unable to open DB due to Error: SQLITE_BUSY: database is locked
 2025-10-08 19:23:16.699 [info] update#setState checking for updates
 2025-10-08 19:23:16.805 [info] update#setState idle
+2025-10-08 20:14:27.627 [info] Extension host with pid 5230 exited with code: 0, signal: unknown.
+2025-10-08 20:14:27.725 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 5082]: crashed with code 15 and reason 'killed'
