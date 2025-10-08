@@ -28,4 +28,5 @@
  - [Zephyr](https://github.com/ZephyrCodesStuff/pywal-vencord) for the pywal-vencord
  - [Via1va](https://github.com/via1va/Obwal) for the pywal-obisidian
  - [NvChad](https://github.com/NvChad/pywal) for the pywal-nvim
+ - [Frewacom](https://github.com/Frewacom/pywalfox) for the pywalfox
  - [Keyitdev](https://github.com/Keyitdev/sddm-astronaut-theme/tree/master?tab=readme-ov-file) for the sddm themes     
