@@ -1,0 +1,27 @@
+2025-10-08 19:22:57.741 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-08 19:22:57.741 [info] Using the Electron fetcher.
+2025-10-08 19:22:57.741 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-08 19:22:57.741 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-08 19:22:57.741 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-08 19:23:00.456 [info] Logged in as Hanamizuiro
+2025-10-08 19:23:00.904 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary,text-embedding-3-small-512. Deprecated: 
+2025-10-08 19:23:00.908 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary,text-embedding-3-small-512. Deprecated: 
+2025-10-08 19:23:00.908 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-10-08 19:23:00.972 [info] FetcherService: electron-fetch succeeded
+2025-10-08 19:23:02.702 [info] FetcherService: electron-fetch succeeded
+2025-10-08 19:23:02.782 [info] Got Copilot token for Hanamizuiro
+2025-10-08 19:23:02.790 [info] activationBlocker from 'languageModelAccess' took for 2419ms
+2025-10-08 19:23:02.924 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-10-08 19:23:02.924 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-08 19:23:02.935 [info] Registering default platform agent...
+2025-10-08 19:23:02.936 [info] activationBlocker from 'conversationFeature' took for 2568ms
+2025-10-08 19:23:03.054 [error] GithubCodeSearchService::getRemoteIndexState(hanamizuiro/myarchlinuxdotfiles). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-10-08 19:23:03.054 [error] CodeSearchRepoTracker::getIndexedStatus(hanamizuiro/myarchlinuxdotfiles). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-10-08 19:23:03.070 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-10-08 19:23:03.546 [info] Fetched model metadata in 3164ms 9051257c-c35e-4aa8-b199-cd847bed64a0
+2025-10-08 19:23:03.754 [info] Latest entry: ccreq:latest.copilotmd
+2025-10-08 19:23:03.755 [info] ccreq:80c27d37.copilotmd | markdown
+2025-10-08 19:23:03.991 [info] Fetched auto model in 228ms.
+2025-10-08 19:23:09.666 [info] Refetch model metadata: Succeeded in 901ms 9ffc85ff-bb29-4159-877c-a0de2f44c40c (8DAC:1E8D37:1105198:13A75BF:68E6499D) using node-fetch with status 200.
+2025-10-08 19:23:10.552 [info] Refetch model metadata: Succeeded in 884ms b1300814-ff13-4fa0-8970-8a7e3e400d6e (8DAE:389885:FF668D:129D332:68E6499E) using electron-fetch with status 200.
+2025-10-08 19:23:11.793 [info] Refetch model metadata: Succeeded in 1239ms 1140ea98-da01-4058-afac-9ac03cee8934 (9960:12EAAA:1059E0D:12FE798:68E6499E) using node-http with status 200.

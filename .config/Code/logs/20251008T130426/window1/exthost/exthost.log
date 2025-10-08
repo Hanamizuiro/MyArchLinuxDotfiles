@@ -1,0 +1,58 @@
+2025-10-08 13:04:27.334 [info] Extension host with pid 66218 started
+2025-10-08 13:04:27.399 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-08 13:04:27.419 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-08 13:04:27.502 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-08 13:04:27.503 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2025-10-08 13:04:27.520 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-08 13:04:27.557 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-08 13:04:27.641 [info] Eager extensions activated
+2025-10-08 13:04:27.649 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-08 13:04:27.651 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-08 13:04:27.665 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-10-08 13:04:28.788 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-10-08 13:04:29.263 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-10-08 13:06:31.012 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-08 13:06:31.031 [info] Extension host with pid 66218 exiting with code 0
+2025-10-08 13:06:32.319 [info] Extension host with pid 66779 started
+2025-10-08 13:06:32.319 [info] Skipping acquiring lock for /home/blueflowers/.config/Code/User/workspaceStorage/3209eb595097d4ab7bf390136c8c0d52.
+2025-10-08 13:06:32.647 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-08 13:06:32.668 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-08 13:06:32.682 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-10-08 13:06:33.149 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-08 13:06:33.155 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-08 13:06:33.192 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-08 13:06:33.224 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-10-08 13:06:33.334 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-10-08 13:06:33.349 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-10-08 13:06:33.451 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-10-08 13:06:33.529 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-08 13:06:33.529 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2025-10-08 13:06:33.633 [info] Eager extensions activated
+2025-10-08 13:06:33.654 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-08 13:06:33.655 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-08 13:06:33.667 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-10-08 13:06:35.041 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1280
+2025-10-08 13:06:35.538 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1280
+2025-10-08 13:06:35.938 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1280
+2025-10-08 13:06:49.478 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1281
+2025-10-08 13:06:54.537 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1281
+2025-10-08 13:07:18.099 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1282
+2025-10-08 13:07:23.160 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1283
+2025-10-08 13:08:11.077 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1284
+2025-10-08 13:08:16.141 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1284
+2025-10-08 13:08:21.198 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1284
+2025-10-08 13:08:26.255 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1284
+2025-10-08 13:08:31.315 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1284
+2025-10-08 13:08:36.378 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1284
+2025-10-08 13:08:41.437 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1284
+2025-10-08 13:08:48.205 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1284
+2025-10-08 13:09:04.751 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1284
+2025-10-08 13:09:34.924 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1284
+2025-10-08 13:09:39.989 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1284
+2025-10-08 13:09:45.051 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1284
+2025-10-08 13:09:50.108 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1284
+2025-10-08 13:10:34.866 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1285
+2025-10-08 13:10:54.109 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1285
+2025-10-08 13:10:59.168 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1285
+2025-10-08 13:11:00.338 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-08 13:11:00.371 [info] Extension host with pid 66779 exiting with code 0

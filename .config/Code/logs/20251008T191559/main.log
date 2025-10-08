@@ -1,0 +1,7 @@
+2025-10-08 19:15:59.389 [info] update#setState idle
+2025-10-08 19:16:30.248 [info] update#setState checking for updates
+2025-10-08 19:16:30.889 [info] update#setState idle
+2025-10-08 19:22:44.516 [info] Extension host with pid 1906 exited with code: 0, signal: unknown.
+2025-10-08 19:22:44.627 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 1930]: crashed with code 15 and reason 'killed'
+2025-10-08 19:22:50.121 [warning] [storage main] detected slow close() operation: Time: 5511ms, DB size: 192512b, Large Keys: memento/workbench.editors.files.textFileEditor:49261, memento/workbench.parts.editor:19918, history.entries:17355, memento/interactive-session:5058, chat.ChatSessionStore.index:2685
+2025-10-08 19:22:52.402 [warning] [storage main] detected slow close() operation: Time: 7791ms, DB size: 192512b, Large Keys: iconThemeData:96340, colorThemeData:13078, extensionsEnablement/malicious:8135, workbench.activity.placeholderViewlets:5127, GitHub.copilot-chat:3698

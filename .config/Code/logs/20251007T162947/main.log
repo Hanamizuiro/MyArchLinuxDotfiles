@@ -1,0 +1,18 @@
+2025-10-07 16:29:47.974 [info] update#setState idle
+2025-10-07 16:30:17.962 [info] update#setState checking for updates
+2025-10-07 16:33:49.204 [error] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/385651c938df8a906869babee516bffd0ddb9829 - error undefined net::ERR_TIMED_OUT
+2025-10-07 16:33:49.210 [error] update#isLatestVersion(): failed to check for updates
+2025-10-07 16:33:49.210 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123921)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-10-07 16:33:49.453 [error] #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/385651c938df8a906869babee516bffd0ddb9829 - error undefined net::ERR_TIMED_OUT
+2025-10-07 16:33:49.453 [error] update#isLatestVersion(): failed to check for updates
+2025-10-07 16:33:49.453 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123921)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-10-07 16:34:11.442 [error] #3: https://update.code.visualstudio.com/api/update/linux-x64/stable/385651c938df8a906869babee516bffd0ddb9829?bg=true - error undefined net::ERR_TIMED_OUT
+2025-10-07 16:34:11.442 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123921)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-10-07 16:34:11.442 [info] update#setState idle
+2025-10-07 16:37:54.928 [info] Extension host with pid 302620 exited with code: 0, signal: unknown.

@@ -1,0 +1,69 @@
+2025-10-08 13:04:29.614 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-08 13:04:29.614 [info] Using the Electron fetcher.
+2025-10-08 13:04:29.614 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-08 13:04:29.614 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-08 13:04:29.614 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-08 13:04:29.708 [info] Logged in as Hanamizuiro
+2025-10-08 13:04:30.225 [info] FetcherService: electron-fetch succeeded
+2025-10-08 13:04:30.226 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary,text-embedding-3-small-512. Deprecated: 
+2025-10-08 13:04:30.228 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary,text-embedding-3-small-512. Deprecated: 
+2025-10-08 13:04:30.228 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-10-08 13:04:30.235 [info] FetcherService: electron-fetch succeeded
+2025-10-08 13:04:30.235 [info] Got Copilot token for Hanamizuiro
+2025-10-08 13:04:30.242 [info] activationBlocker from 'languageModelAccess' took for 401ms
+2025-10-08 13:04:30.274 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-10-08 13:04:30.274 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-08 13:04:30.284 [info] Registering default platform agent...
+2025-10-08 13:04:30.285 [info] activationBlocker from 'conversationFeature' took for 446ms
+2025-10-08 13:04:30.437 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-10-08 13:04:30.993 [info] Fetched model metadata in 1143ms a0844438-98b8-4031-a0be-f4db07afc12d
+2025-10-08 13:04:31.353 [info] Latest entry: ccreq:latest.copilotmd
+2025-10-08 13:04:31.354 [info] ccreq:1e0c80e4.copilotmd | markdown
+2025-10-08 13:04:31.576 [info] Fetched auto model in 218ms.
+2025-10-08 13:04:33.554 [info] message 0 returned. finish reason: [stop]
+2025-10-08 13:04:33.554 [info] request done: requestId: [5b520a5a-c58c-4e8c-9c7e-190c9bebb2c3] model deployment ID: []
+2025-10-08 13:04:33.554 [info] ccreq:60a48b4c.copilotmd | success | copilot-nes-xtab | 1202ms | [XtabProvider]
+2025-10-08 13:04:33.555 [info] ccreq:34784edc.copilotmd | markdown
+2025-10-08 13:04:33.555 [info] ccreq:2b7fd20a.copilotmd | markdown
+2025-10-08 13:04:33.555 [info] ccreq:00890576.copilotmd | markdown
+2025-10-08 13:04:36.340 [info] message 0 returned. finish reason: [stop]
+2025-10-08 13:04:36.341 [info] request done: requestId: [3e6df8e9-b2cd-4e2c-a219-1a4174b7e63c] model deployment ID: []
+2025-10-08 13:04:36.341 [info] ccreq:59946d10.copilotmd | success | copilot-nes-xtab | 586ms | [XtabProvider]
+2025-10-08 13:04:36.342 [info] ccreq:8b683591.copilotmd | markdown
+2025-10-08 13:06:33.526 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-08 13:06:33.526 [info] Using the Electron fetcher.
+2025-10-08 13:06:33.552 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-08 13:06:33.552 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-08 13:06:33.552 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-08 13:06:35.457 [info] Logged in as Hanamizuiro
+2025-10-08 13:06:35.839 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary,text-embedding-3-small-512. Deprecated: 
+2025-10-08 13:06:35.841 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary,text-embedding-3-small-512. Deprecated: 
+2025-10-08 13:06:35.841 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-10-08 13:06:35.906 [info] FetcherService: electron-fetch succeeded
+2025-10-08 13:06:35.986 [info] FetcherService: electron-fetch succeeded
+2025-10-08 13:06:35.986 [info] Got Copilot token for Hanamizuiro
+2025-10-08 13:06:35.993 [info] activationBlocker from 'languageModelAccess' took for 1159ms
+2025-10-08 13:06:36.029 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-10-08 13:06:36.029 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-08 13:06:36.040 [info] Registering default platform agent...
+2025-10-08 13:06:36.040 [info] activationBlocker from 'conversationFeature' took for 1209ms
+2025-10-08 13:06:36.169 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-10-08 13:06:36.299 [error] GithubCodeSearchService::getRemoteIndexState(hanamizuiro/myarchlinuxdotfiles). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-10-08 13:06:36.299 [error] CodeSearchRepoTracker::getIndexedStatus(hanamizuiro/myarchlinuxdotfiles). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-10-08 13:06:36.782 [info] Fetched model metadata in 1490ms 83f9a8c8-0678-45d6-8fe0-780da773918b
+2025-10-08 13:06:37.002 [info] Latest entry: ccreq:latest.copilotmd
+2025-10-08 13:06:37.002 [info] ccreq:8a7088f6.copilotmd | markdown
+2025-10-08 13:06:37.235 [info] Fetched auto model in 228ms.
+2025-10-08 13:08:14.580 [info] message 0 returned. finish reason: [stop]
+2025-10-08 13:08:14.580 [info] request done: requestId: [074f44d6-7342-44ae-a7a0-5f003c6af856] model deployment ID: []
+2025-10-08 13:08:14.712 [info] ccreq:44a36e72.copilotmd | success | copilot-nes-xtab | 1223ms | [XtabProvider]
+2025-10-08 13:08:14.713 [info] ccreq:b02bb9ab.copilotmd | markdown
+2025-10-08 13:08:15.714 [info] ccreq:409c4c6d.copilotmd | markdown
+2025-10-08 13:08:17.573 [info] message 0 returned. finish reason: [stop]
+2025-10-08 13:08:17.573 [info] request done: requestId: [d795df2f-fce9-4e2f-8ff0-3f703e879e16] model deployment ID: []
+2025-10-08 13:08:17.573 [info] ccreq:9ea25d1b.copilotmd | success | copilot-nes-xtab | 877ms | [XtabProvider]
+2025-10-08 13:08:18.574 [info] ccreq:4bef5e08.copilotmd | markdown
+2025-10-08 13:08:23.260 [info] message 0 returned. finish reason: [stop]
+2025-10-08 13:08:23.260 [info] request done: requestId: [7f8592ed-96bd-4d7f-a6d5-ede8c2db3274] model deployment ID: []
+2025-10-08 13:08:23.261 [info] ccreq:1c909e00.copilotmd | success | copilot-nes-xtab | 485ms | [XtabProvider]
+2025-10-08 13:08:23.490 [info] ccreq:836934e8.copilotmd | markdown

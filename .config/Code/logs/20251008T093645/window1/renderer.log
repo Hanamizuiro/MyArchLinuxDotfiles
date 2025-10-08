@@ -1,0 +1,614 @@
+2025-10-08 09:36:46.988 [info] Started local extension host with pid 1460.
+2025-10-08 09:36:48.186 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-08 09:36:49.868 [info] [perf] Render performance baseline is 18ms
+2025-10-08 09:36:49.908 [error] [Extension Host] (node:1460) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-08 09:36:50.183 [error] [Extension Host] Failed to load MSAL binary: Error: Cannot find module './msal-node-runtime'
+Require stack:
+- /opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js
+- /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1372:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16249)
+    at Module.t._resolveFilename (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1028:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1033:22)
+    at Module._load (node:internal/modules/cjs/loader:1182:37)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/blueflowers/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.7247 (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:231600)
+    at n (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Module.9020 (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:526968)
+    at n (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.6244 (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:215773)
+    at n (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.3226 (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:129004)
+    at n (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.2583 (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:105051)
+    at n (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.8428 (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:452019)
+    at n (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.5256 (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:172891)
+    at n (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at /opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559691
+    at Object.<anonymous> (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559798)
+    at Module._compile (node:internal/modules/cjs/loader:1696:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1829:10)
+    at Module.load (node:internal/modules/cjs/loader:1430:32)
+    at Module._load (node:internal/modules/cjs/loader:1253:12)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/blueflowers/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at aJ.Cb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+2025-10-08 09:36:50.872 [warning] Failed to update in-progress status for chat session type 'claude-code': Can not find provider for claude-code
+2025-10-08 10:12:10.057 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 10:32:22.032 [error] [Extension Host] [AsyncCompletionManager] [d601d2e1-b035-4c94-b987-35bee47eed0d] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 10:32:26.738 [error] [Extension Host] [AsyncCompletionManager] [0d1c1a44-8fb3-48a8-b2d6-9470fcad610b] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 10:33:34.284 [error] [Extension Host] [AsyncCompletionManager] [1ca53581-14fa-4ee2-801e-46b38f66e5b0] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 10:52:53.719 [error] [Extension Host] [AsyncCompletionManager] [c927af70-7821-4a6f-87df-13e39f12414b] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 10:52:54.301 [error] [Extension Host] [AsyncCompletionManager] [0ce67a39-338d-4bd1-88b4-11edb8ce7cd5] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 10:54:42.452 [error] [Extension Host] [AsyncCompletionManager] [3baea6b2-dd2f-4693-b21a-a90f3637df7b] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 10:54:46.131 [error] [Extension Host] [AsyncCompletionManager] [a701b3ca-b7a5-475d-ab37-3cb5e1d693cf] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 10:54:47.570 [error] [Extension Host] [AsyncCompletionManager] [bd8da344-be15-47a0-9c3d-8876b923aa7c] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 10:54:47.769 [error] [Extension Host] [AsyncCompletionManager] [9292d6e2-6963-40b2-a63b-07a8d6105c3e] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 10:54:54.048 [error] [Extension Host] [AsyncCompletionManager] [92622839-639c-4586-82c9-f0c07ab336eb] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 10:55:27.775 [error] [Extension Host] [AsyncCompletionManager] [f83a3741-2620-4f1f-9bc5-55b663209ce2] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 10:58:40.390 [error] [Extension Host] [AsyncCompletionManager] [bc640b49-5dde-43f5-a3b1-1faece0a4fc6] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 11:00:22.199 [error] [Extension Host] [AsyncCompletionManager] [5ac30b3c-33a3-42dc-84c5-9bc44b663ab6] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 11:01:33.657 [error] [Extension Host] [AsyncCompletionManager] [4ca925ad-7ad7-4f5e-90a2-f403f5d5f215] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 11:02:45.838 [error] [Extension Host] [AsyncCompletionManager] [be8fe74f-3fff-4b3a-b5b5-215c430f4f98] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 11:04:12.693 [error] [Extension Host] [AsyncCompletionManager] [bf09a5e8-10f2-47da-8f73-3ceb78d6c762] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 11:06:42.945 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:06:42.950 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:06:43.032 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:06:43.125 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:06:43.217 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:06:43.309 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:06:43.400 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:06:43.487 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:11:16.947 [error] Error: Unable to move/copy '/home/blueflowers/dotfiles/.config/swaync/icons/icons/brightness-20.png' because target '/home/blueflowers/dotfiles/.config/swaync/icons/brightness-20.png' already exists at destination.
+    at lSt.R (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:68895)
+    at async lSt.N (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:67154)
+    at async w9e.m (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:528:3774)
+    at async Oft.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2627:7936)
+    at async jft.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2627:12711)
+    at async qft.n (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2627:18775)
+    at async qft.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2627:18430)
+    at async Gft.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2627:20380)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2625:71000
+    at async r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1208:13146)
+2025-10-08 11:11:16.947 [error] Unable to move/copy '/home/blueflowers/dotfiles/.config/swaync/icons/icons/brightness-20.png' because target '/home/blueflowers/dotfiles/.config/swaync/icons/brightness-20.png' already exists at destination.: Error: Unable to move/copy '/home/blueflowers/dotfiles/.config/swaync/icons/icons/brightness-20.png' because target '/home/blueflowers/dotfiles/.config/swaync/icons/brightness-20.png' already exists at destination.
+    at lSt.R (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:68895)
+    at async lSt.N (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:67154)
+    at async w9e.m (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:528:3774)
+    at async Oft.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2627:7936)
+    at async jft.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2627:12711)
+    at async qft.n (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2627:18775)
+    at async qft.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2627:18430)
+    at async Gft.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2627:20380)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2625:71000
+    at async r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1208:13146)
+2025-10-08 11:13:37.473 [error] [Extension Host] [AsyncCompletionManager] [c9033618-ea79-4b7a-a4b6-0a610f3d4518] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 11:15:32.266 [error] [Extension Host] [AsyncCompletionManager] [b77794c2-b6ea-4e1a-8a5c-9ca199e9a8a5] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 11:23:26.901 [error] [Extension Host] [AsyncCompletionManager] [4db9bc19-8be6-4525-814a-138bd41c72bc] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 11:24:41.794 [error] [Extension Host] [AsyncCompletionManager] [8c3896ae-4fa7-4809-a2a3-4b30c2250bae] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 11:40:13.218 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:13.301 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:13.440 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:13.582 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:13.730 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:13.922 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:14.128 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:14.164 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:14.452 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:14.539 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:14.625 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:14.703 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:16.472 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:16.506 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:16.510 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:16.511 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:16.541 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:16.548 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:16.550 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:16.613 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:16.946 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:36.240 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:36.262 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:36.678 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:36.678 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:36.728 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:36.887 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:37.164 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:37.166 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:37.372 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:37.583 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:37.756 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:38.073 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:40.031 [info] Extension host (LocalProcess pid: 1460) is unresponsive.
+2025-10-08 11:40:42.991 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-08 11:40:43.759 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:43.985 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:44.423 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:44.664 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:44.670 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:44.672 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:44.673 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:44.674 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:44.675 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:44.676 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:44.677 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:44.680 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:44.681 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:44.693 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:44.919 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:45.013 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:45.122 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:45.303 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:45.430 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:45.523 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:45.600 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:45.811 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:45.936 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:46.019 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:46.096 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:46.304 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:47.205 [info] Extension host (LocalProcess pid: 1460) is responsive.
+2025-10-08 11:40:47.205 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-08 11:40:47.332 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:50.916 [info] Extension host (LocalProcess pid: 1460) is unresponsive.
+2025-10-08 11:40:51.923 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-08 11:40:52.294 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:52.702 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:52.805 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:52.806 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:52.807 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:52.808 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:52.881 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:52.961 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:53.204 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:53.348 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:54.551 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:59.988 [warning] UNRESPONSIVE extension host: 'dlasagno.wal-theme' took 61.2148529811471% of 3126.054ms, saved PROFILE here: 'file:///tmp/exthost-f71f3b.cpuprofile'
+2025-10-08 11:40:59.989 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:40:59.990 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:41:00.364 [info] Extension host (LocalProcess pid: 1460) is responsive.
+2025-10-08 11:41:03.458 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:41:03.459 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 11:57:32.353 [error] [Extension Host] [AsyncCompletionManager] [3b6e7880-c8cf-4670-80ea-edc176ea75e6] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 12:41:15.000 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:15.382 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:22.375 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:22.565 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:22.585 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:22.758 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:23.038 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:23.321 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:23.517 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:24.252 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:26.950 [info] Extension host (LocalProcess pid: 1460) is unresponsive.
+2025-10-08 12:41:27.658 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-08 12:41:34.128 [warning] UNRESPONSIVE extension host: 'dlasagno.wal-theme' took 73.91057425194553% of 4305.101ms, saved PROFILE here: 'file:///tmp/exthost-a96ad4.cpuprofile'
+2025-10-08 12:41:35.982 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:36.080 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:36.197 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:37.292 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:37.436 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:37.570 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:37.674 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:37.980 [info] Extension host (LocalProcess pid: 1460) is responsive.
+2025-10-08 12:41:37.986 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:40.616 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:40.703 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:40.790 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:40.899 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:41.300 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:41.311 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:41.418 [info] Extension host (LocalProcess pid: 1460) is unresponsive.
+2025-10-08 12:41:42.016 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-08 12:41:44.173 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:47.331 [info] Extension host (LocalProcess pid: 1460) is responsive.
+2025-10-08 12:41:47.431 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:47.444 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:47.455 [warning] UNRESPONSIVE extension host: 'dlasagno.wal-theme' took 60.96225469634289% of 3076.74ms, saved PROFILE here: 'file:///tmp/exthost-a4f185.cpuprofile'
+2025-10-08 12:41:52.868 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:55.574 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:57.385 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:57.776 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:57.781 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:57.796 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:57.814 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:57.816 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:57.816 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:57.818 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:57.819 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:57.819 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:57.820 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:58.104 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:58.108 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:58.110 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:58.116 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:58.117 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:58.118 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:58.119 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:58.119 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:58.198 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:58.576 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:41:58.786 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:42:00.642 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:48:28.969 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2025-10-08 12:48:38.039 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2025-10-08 12:48:44.297 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2025-10-08 12:51:18.328 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 12:51:36.560 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2025-10-08 12:51:36.850 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2025-10-08 12:51:53.012 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.textFiles, join.chatEditingSession, join.chatSessionStore, join.workingCopyHistory

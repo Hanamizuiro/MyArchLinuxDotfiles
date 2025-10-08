@@ -94,3 +94,6 @@ eval "$(zoxide init zsh)"
 eval "$(tmuxifier init -)"
 export PATH=$PATH:/home/blueflowers/.spicetify
 [[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
+
+# Created by `pipx` on 2025-10-06 15:21:13
+export PATH="$PATH:/home/blueflowers/.local/bin"

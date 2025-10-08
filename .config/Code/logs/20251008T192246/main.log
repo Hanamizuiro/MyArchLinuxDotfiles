@@ -1,0 +1,12 @@
+2025-10-08 19:22:46.708 [info] update#setState idle
+2025-10-08 19:22:47.709 [error] [storage state.vscdb] exec(): Error: SQLITE_BUSY: database is locked
+2025-10-08 19:22:47.710 [error] [storage state.vscdb] open(): Unable to open DB due to Error: SQLITE_BUSY: database is locked
+2025-10-08 19:22:47.710 [error] [storage state.vscdb] exec(): Error: SQLITE_BUSY: database is locked
+2025-10-08 19:22:47.710 [error] [storage state.vscdb] open(): Unable to open DB due to Error: SQLITE_BUSY: database is locked
+2025-10-08 19:22:48.948 [error] Error: Unable to write file '/home/blueflowers/.config/Code/User/globalStorage/storage.json' (EntryNotFound (FileSystemError): File to move/copy does not exist)
+    at _u.writeFile (file:///opt/visual-studio-code/resources/app/out/main.js:150:6795)
+    at async Kb.s (file:///opt/visual-studio-code/resources/app/out/main.js:38:89997)
+2025-10-08 19:22:50.713 [error] [storage state.vscdb] exec(): Error: SQLITE_BUSY: database is locked
+2025-10-08 19:22:50.713 [error] [storage state.vscdb] open(): Unable to open DB due to Error: SQLITE_BUSY: database is locked
+2025-10-08 19:23:16.699 [info] update#setState checking for updates
+2025-10-08 19:23:16.805 [info] update#setState idle

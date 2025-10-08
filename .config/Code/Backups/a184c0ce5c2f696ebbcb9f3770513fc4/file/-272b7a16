@@ -1,0 +1,28 @@
+file:///home/blueflowers/dotfiles/.config/rofi/config-search.rasi {"mtime":1759641431255,"ctime":1759669303949,"size":371,"etag":"3f07en82rbu","orphaned":false,"typeId":""}
+/* Rofi Config for Google Search) */
+
+@import "~/.config/rofi/config.rasi" 
+
+/* ---- Window ---- */
+window {
+	width: 40%;
+    y-offset: 6px;
+    location: north;
+}
+
+/* ---- Inputbar ---- */
+inputbar {
+    enabled: true;
+}
+
+/* ---- Mainbox ---- */
+mainbox {
+	padding: 0px;
+    children: [ "entry"];
+}
+
+/* ---- Entry ---- */ 
+entry {
+	placeholder: "  Google Search";
+}
+

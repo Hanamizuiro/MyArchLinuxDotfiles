@@ -1,0 +1,101 @@
+2025-10-07 23:17:26.729 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-07 23:17:26.729 [info] Using the Electron fetcher.
+2025-10-07 23:17:26.729 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-07 23:17:26.729 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-07 23:17:26.729 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-07 23:17:26.893 [info] Logged in as Hanamizuiro
+2025-10-07 23:17:27.285 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary,text-embedding-3-small-512. Deprecated: 
+2025-10-07 23:17:27.287 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary,text-embedding-3-small-512. Deprecated: 
+2025-10-07 23:17:27.287 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-10-07 23:17:27.339 [info] FetcherService: electron-fetch succeeded
+2025-10-07 23:17:27.701 [error] GithubCodeSearchService::getRemoteIndexState(hanamizuiro/myarchlinuxdotfiles). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-10-07 23:17:27.701 [error] CodeSearchRepoTracker::getIndexedStatus(hanamizuiro/myarchlinuxdotfiles). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-10-07 23:17:27.833 [info] FetcherService: electron-fetch succeeded
+2025-10-07 23:17:27.833 [info] Got Copilot token for Hanamizuiro
+2025-10-07 23:17:27.841 [info] activationBlocker from 'languageModelAccess' took for 916ms
+2025-10-07 23:17:27.873 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-10-07 23:17:27.873 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 23:17:27.883 [info] Registering default platform agent...
+2025-10-07 23:17:27.883 [info] activationBlocker from 'conversationFeature' took for 961ms
+2025-10-07 23:17:27.968 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-10-07 23:17:28.692 [error] GithubCodeSearchService::getRemoteIndexState(hanamizuiro/myarchlinuxdotfiles). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-10-07 23:17:28.692 [error] CodeSearchRepoTracker::getIndexedStatus(hanamizuiro/myarchlinuxdotfiles). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-10-07 23:17:28.716 [info] Fetched model metadata in 1783ms 5660cc3a-04f6-4df7-a4bc-03e4cc151ce3
+2025-10-07 23:17:28.932 [info] Latest entry: ccreq:latest.copilotmd
+2025-10-07 23:17:28.932 [info] ccreq:3d971dea.copilotmd | markdown
+2025-10-07 23:17:29.161 [info] Fetched auto model in 226ms.
+2025-10-07 23:42:04.211 [info] Logged in as Hanamizuiro
+2025-10-07 23:42:04.743 [info] FetcherService: electron-fetch succeeded
+2025-10-07 23:42:04.818 [info] FetcherService: electron-fetch succeeded
+2025-10-07 23:42:04.818 [info] Got Copilot token for Hanamizuiro
+2025-10-07 23:42:04.833 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-10-07 23:42:05.173 [error] GithubCodeSearchService::getRemoteIndexState(hanamizuiro/myarchlinuxdotfiles). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-10-07 23:42:05.173 [error] CodeSearchRepoTracker::getIndexedStatus(hanamizuiro/myarchlinuxdotfiles). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-10-07 23:42:07.190 [info] message 0 returned. finish reason: [stop]
+2025-10-07 23:42:07.190 [info] request done: requestId: [de644b97-4bf9-4c43-9ff5-eba8dbbda696] model deployment ID: []
+2025-10-07 23:42:07.191 [info] ccreq:5b8617fa.copilotmd | success | copilot-nes-xtab | 2367ms | [XtabProvider]
+2025-10-07 23:42:07.193 [info] ccreq:c4af49d0.copilotmd | markdown
+2025-10-07 23:42:13.271 [info] message 0 returned. finish reason: [stop]
+2025-10-07 23:42:13.271 [info] request done: requestId: [77c9b49c-1d58-4618-8ee7-3ade067939a0] model deployment ID: []
+2025-10-07 23:42:13.272 [info] ccreq:17ce2e54.copilotmd | success | copilot-nes-xtab | 773ms | [XtabProvider]
+2025-10-07 23:42:13.722 [info] ccreq:57bfb0a2.copilotmd | markdown
+2025-10-07 23:42:14.725 [info] ccreq:e15548f1.copilotmd | markdown
+2025-10-07 23:42:18.230 [info] message 0 returned. finish reason: [stop]
+2025-10-07 23:42:18.230 [info] request done: requestId: [907307e2-54c4-43ff-80bd-b5c9af1237a6] model deployment ID: []
+2025-10-07 23:42:18.231 [info] ccreq:f0a8604d.copilotmd | success | copilot-nes-xtab | 808ms | [XtabProvider]
+2025-10-07 23:42:19.232 [info] ccreq:a285514a.copilotmd | markdown
+2025-10-07 23:42:27.097 [info] ccreq:3f76d01b.copilotmd | markdown
+2025-10-07 23:49:09.955 [info] message 0 returned. finish reason: [stop]
+2025-10-07 23:49:09.955 [info] request done: requestId: [077963bb-d707-41ff-be5c-a7088198bb78] model deployment ID: []
+2025-10-07 23:49:09.956 [info] ccreq:e7c20cc7.copilotmd | success | copilot-nes-xtab | 1362ms | [XtabProvider]
+2025-10-07 23:49:10.957 [info] ccreq:c2c76f83.copilotmd | markdown
+2025-10-08 00:07:23.881 [info] Logged in as Hanamizuiro
+2025-10-08 00:07:24.373 [info] FetcherService: electron-fetch succeeded
+2025-10-08 00:07:24.418 [info] FetcherService: electron-fetch succeeded
+2025-10-08 00:07:24.418 [info] Got Copilot token for Hanamizuiro
+2025-10-08 00:07:24.428 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-10-08 00:07:25.259 [error] GithubCodeSearchService::getRemoteIndexState(hanamizuiro/myarchlinuxdotfiles). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-10-08 00:07:25.259 [error] CodeSearchRepoTracker::getIndexedStatus(hanamizuiro/myarchlinuxdotfiles). Failed to fetch indexing status. Encountered eror: Error: Failed to fetch indexing status. Response: 404.
+2025-10-08 00:07:25.538 [info] request done: requestId: [89fc47db-9e85-4673-9eab-77d2a5ff925a] model deployment ID: []
+2025-10-08 00:07:25.768 [info] ccreq:129aa8ef.copilotmd | markdown
+2025-10-08 00:07:26.379 [info] ccreq:f541f206.copilotmd | markdown
+2025-10-08 00:07:27.457 [info] message 0 returned. finish reason: [stop]
+2025-10-08 00:07:27.458 [info] request done: requestId: [bb0fbb99-0800-4303-8995-117156bdfd0e] model deployment ID: []
+2025-10-08 00:07:27.458 [info] ccreq:300742ef.copilotmd | success | copilot-nes-xtab | 858ms | [XtabProvider]
+2025-10-08 00:07:27.459 [info] ccreq:822fca70.copilotmd | markdown
+2025-10-08 00:07:28.515 [info] message 0 returned. finish reason: [stop]
+2025-10-08 00:07:28.515 [info] request done: requestId: [fd92cfc0-e765-4ee6-b07e-5080029e8776] model deployment ID: []
+2025-10-08 00:07:28.516 [info] ccreq:d28d1e69.copilotmd | success | copilot-nes-xtab | 856ms | [XtabProvider]
+2025-10-08 00:07:28.516 [info] ccreq:e6742d5e.copilotmd | markdown
+2025-10-08 00:07:30.083 [info] ccreq:5c4d24cd.copilotmd | markdown
+2025-10-08 00:07:30.939 [info] message 0 returned. finish reason: [stop]
+2025-10-08 00:07:30.939 [info] request done: requestId: [ce178f81-f1e1-45e5-9d8c-ac524fc7e8c8] model deployment ID: []
+2025-10-08 00:07:30.939 [info] ccreq:eecdcf76.copilotmd | success | copilot-nes-xtab | 647ms | [XtabProvider]
+2025-10-08 00:07:30.941 [info] ccreq:c36d0aac.copilotmd | markdown
+2025-10-08 00:07:31.877 [info] message 0 returned. finish reason: [stop]
+2025-10-08 00:07:31.877 [info] request done: requestId: [6b9d4bc5-cbc7-4010-97b9-d0e96ecd47ee] model deployment ID: []
+2025-10-08 00:07:31.877 [info] ccreq:f2ee4088.copilotmd | success | copilot-nes-xtab | 680ms | [XtabProvider]
+2025-10-08 00:07:31.879 [info] ccreq:b428997d.copilotmd | markdown
+2025-10-08 00:07:31.879 [info] ccreq:6bd75371.copilotmd | markdown
+2025-10-08 00:07:33.807 [info] message 0 returned. finish reason: [stop]
+2025-10-08 00:07:33.807 [info] request done: requestId: [2b098a24-b00d-4c41-a6f5-ba55524f74b2] model deployment ID: []
+2025-10-08 00:07:33.807 [info] ccreq:884107a1.copilotmd | success | copilot-nes-xtab | 765ms | [XtabProvider]
+2025-10-08 00:07:34.808 [info] ccreq:c44baa5f.copilotmd | markdown
+2025-10-08 00:07:37.756 [info] ccreq:2c289cd7.copilotmd | markdown
+2025-10-08 00:07:37.756 [info] ccreq:7008a5c1.copilotmd | markdown
+2025-10-08 00:07:37.756 [info] ccreq:aa9cd5ca.copilotmd | markdown
+2025-10-08 00:07:37.756 [info] ccreq:02c5ec9a.copilotmd | markdown
+2025-10-08 00:07:37.756 [info] ccreq:870d3047.copilotmd | markdown
+2025-10-08 00:07:37.756 [info] ccreq:d84c5e64.copilotmd | markdown
+2025-10-08 00:07:37.757 [info] request done: requestId: [fef89dbb-ee97-4866-90cf-da2210f848b8] model deployment ID: []
+2025-10-08 00:07:38.983 [info] ccreq:bc5a3165.copilotmd | markdown
+2025-10-08 00:07:39.089 [info] ccreq:5eed4f0d.copilotmd | markdown
+2025-10-08 00:07:39.297 [info] message 0 returned. finish reason: [stop]
+2025-10-08 00:07:39.297 [info] request done: requestId: [11139160-a582-437c-9970-04cd4f60c2a9] model deployment ID: []
+2025-10-08 00:07:39.297 [info] ccreq:2ec88b6b.copilotmd | success | copilot-nes-xtab | 1048ms | [XtabProvider]
+2025-10-08 00:08:05.498 [info] ccreq:11b03c1d.copilotmd | markdown
+2025-10-08 00:08:07.027 [info] message 0 returned. finish reason: [stop]
+2025-10-08 00:08:07.027 [info] request done: requestId: [e96e17ad-b6bb-473e-b458-818e3913790d] model deployment ID: []
+2025-10-08 00:08:07.168 [info] ccreq:d9e94ae7.copilotmd | success | copilot-nes-xtab | 952ms | [XtabProvider]
+2025-10-08 00:08:07.168 [info] ccreq:f46bce8c.copilotmd | markdown
+2025-10-08 00:08:08.169 [info] ccreq:1b41c2c2.copilotmd | markdown

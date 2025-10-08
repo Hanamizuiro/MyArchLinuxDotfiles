@@ -1,0 +1,96 @@
+2025-10-07 23:17:23.378 [info] Started local extension host with pid 1568.
+2025-10-07 23:17:24.359 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-07 23:17:26.151 [info] [perf] Render performance baseline is 17ms
+2025-10-07 23:17:26.153 [error] [Extension Host] (node:1568) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-07 23:17:26.307 [error] [Extension Host] Failed to load MSAL binary: Error: Cannot find module './msal-node-runtime'
+Require stack:
+- /opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js
+- /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1372:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16249)
+    at Module.t._resolveFilename (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1028:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1033:22)
+    at Module._load (node:internal/modules/cjs/loader:1182:37)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/blueflowers/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.7247 (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:231600)
+    at n (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Module.9020 (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:526968)
+    at n (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.6244 (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:215773)
+    at n (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.3226 (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:129004)
+    at n (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.2583 (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:105051)
+    at n (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.8428 (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:452019)
+    at n (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.5256 (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:172891)
+    at n (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at /opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559691
+    at Object.<anonymous> (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559798)
+    at Module._compile (node:internal/modules/cjs/loader:1696:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1829:10)
+    at Module.load (node:internal/modules/cjs/loader:1430:32)
+    at Module._load (node:internal/modules/cjs/loader:1253:12)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/blueflowers/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at aJ.Cb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+2025-10-07 23:17:26.937 [warning] Failed to update in-progress status for chat session type 'claude-code': Can not find provider for claude-code
+2025-10-07 23:42:13.998 [error] [text file model] handleSaveError(3) - exit - resulted in a save error: Error: Unable to write file '/home/blueflowers/dotfiles/.config/gtk-4.0/gtk.css' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/blueflowers/dotfiles/.config/gtk-4.0/gtk.css') file:///home/blueflowers/dotfiles/.config/gtk-4.0/gtk.css
+2025-10-07 23:42:53.774 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:593740)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-10-07 23:42:54.776 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 23:47:33.521 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 00:07:31.306 [error] [Extension Host] [AsyncCompletionManager] [eccfe58c-0e60-4271-8e72-77c428d41db7] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/networking.ts:105:19
+    at jie.invoke (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at wU.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Zie.cancel (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at ll.cancelRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at ll.getFirstMatchingRequest (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/lib/src/inlineCompletion.ts:92:20)
+    at ste.provideInlineCompletionItems (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/extension/src/ghostText/ghostText.ts:47:32)
+    at Ove.provideInlineCompletionItems (/home/blueflowers/.vscode/extensions/github.copilot-1.372.0/extension/src/inlineCompletion.ts:93:25)
+    at aa.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:145553) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-08 00:11:49.070 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 00:11:49.198 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 00:11:49.274 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 00:11:49.407 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 00:11:49.597 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 00:16:16.285 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 00:16:17.121 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 00:16:17.829 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 00:16:18.135 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
+2025-10-08 00:16:18.367 [info] Unable to reload {0}: {1} file:///home/blueflowers/.vscode/extensions/dlasagno.wal-theme-1.2.0/themes/wal.json
