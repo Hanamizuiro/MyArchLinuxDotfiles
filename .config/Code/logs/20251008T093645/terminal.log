@@ -1,7 +1,0 @@
-2025-10-08 11:36:51.949 [info] autoApprove: All sub-commands auto-approved []
-2025-10-08 11:36:51.950 [info] - Command 'find ~/Pictures -name "*.jpg" -o -name "*.png" -o -name "*.jpeg"' is approved by allow list rule: find []
-2025-10-08 11:36:51.950 [info] - Command 'head -10' is approved by allow list rule: head []
-2025-10-08 11:36:51.950 [info] - Command line 'find ~/Pictures -name "*.jpg" -o -name "*.png" -o -name "*.jpeg" | head -10' has no matching auto approve entries []
-2025-10-08 11:37:19.402 [info] autoApprove: All sub-commands auto-approved []
-2025-10-08 11:37:19.402 [info] - Command 'which matugen' is approved by allow list rule: which []
-2025-10-08 11:37:19.402 [info] - Command line 'which matugen' has no matching auto approve entries []

@@ -1,3 +1,0 @@
-2025-10-08 19:23:00.113 [info] Log level: Info
-2025-10-08 19:23:00.113 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
-2025-10-08 19:49:49.398 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for Hanamizuiro/MyArchLinuxDotfiles: Error: No GitHub authentication session available.
