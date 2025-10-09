@@ -9,8 +9,6 @@
 - Fully pywal integrated
 - Beautiful rice
 
-# Screenshots
-
 # Progress
 - [x] Hyprland
 - [x] Hyprlock
@@ -18,6 +16,12 @@
 - [x] Waybar
 - [x] Swaync
 - [x] Wlogout
+- [x] Terminal
+- [x] Nvim
+- [x] Firefox
+- [x] Obsidian
+- [x] Spotify
+- [x] Vencord (Discord)     
 
 # Thanks to
  - [HyprFlux](https://www.hyprflux.dev/) for the scripts and dotfiles
